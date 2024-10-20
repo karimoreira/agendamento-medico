@@ -1,13 +1,16 @@
+import {COLORS, FONT_SIZE } from "../../constants/theme.js";
+
 export const styles = {
     btn: {
-        backgroundColor: "blue",
-        padding: 30,
-        margin: 20,
-        borderRadius: 10
+        width: "100%",
+        backgroundColor: COLORS.blue,
+        borderRadius: 6,
+        padding: 12
     },
   
     text: {
-        color: "red", 
-        fontSize: 30
+        color: COLORS.white, 
+        fontSize:  FONT_SIZE.md,
+        textAlign: "center"
     }
 }

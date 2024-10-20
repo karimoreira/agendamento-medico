@@ -1,14 +1,13 @@
-import { Text, View } from 'react-native';
-import Button from './src/components/button/button';
+import Login from "./src/screens/login/login.jsx";
+
 
 function App() {
-  return (
-    <View >
-      <Text>Teste</Text>
-      <Button text="Login" />
-    </View>
-  );
+  return <>
+      <Login/>
+   </>
+
 }
+
 
 
 export default App;
